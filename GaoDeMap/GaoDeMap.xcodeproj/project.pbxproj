@@ -15,6 +15,9 @@
 		111909FE1F1C4EC50084AB6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111909FC1F1C4EC50084AB6B /* LaunchScreen.storyboard */; };
 		11190A091F1C4EC50084AB6B /* GaoDeMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11190A081F1C4EC50084AB6B /* GaoDeMapTests.m */; };
 		11190A141F1C4EC50084AB6B /* GaoDeMapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11190A131F1C4EC50084AB6B /* GaoDeMapUITests.m */; };
+		11190A281F1C8A3C0084AB6B /* GDMHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11190A271F1C8A3C0084AB6B /* GDMHomeTableViewController.m */; };
+		11190A2B1F1C92650084AB6B /* GDMShowMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11190A2A1F1C92650084AB6B /* GDMShowMapViewController.m */; };
+		11190A2E1F1CA9FF0084AB6B /* GDMInteractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11190A2D1F1CA9FF0084AB6B /* GDMInteractionViewController.m */; };
 		68E5FD6218BC8099BFB324EC /* libPods-GaoDeMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7573ABAAEC3883AEE911027 /* libPods-GaoDeMap.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +55,13 @@
 		11190A0F1F1C4EC50084AB6B /* GaoDeMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaoDeMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11190A131F1C4EC50084AB6B /* GaoDeMapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaoDeMapUITests.m; sourceTree = "<group>"; };
 		11190A151F1C4EC50084AB6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11190A261F1C8A3C0084AB6B /* GDMHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDMHomeTableViewController.h; sourceTree = "<group>"; };
+		11190A271F1C8A3C0084AB6B /* GDMHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMHomeTableViewController.m; sourceTree = "<group>"; };
+		11190A291F1C92650084AB6B /* GDMShowMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDMShowMapViewController.h; sourceTree = "<group>"; };
+		11190A2A1F1C92650084AB6B /* GDMShowMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMShowMapViewController.m; sourceTree = "<group>"; };
+		11190A2C1F1CA9FF0084AB6B /* GDMInteractionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDMInteractionViewController.h; sourceTree = "<group>"; };
+		11190A2D1F1CA9FF0084AB6B /* GDMInteractionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMInteractionViewController.m; sourceTree = "<group>"; };
+		11190A301F1CAECD0084AB6B /* GDMPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDMPrefixHeader.pch; sourceTree = "<group>"; };
 		72A2723B5D4FE4D47F409D1B /* Pods-GaoDeMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaoDeMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-GaoDeMap/Pods-GaoDeMap.release.xcconfig"; sourceTree = "<group>"; };
 		C7573ABAAEC3883AEE911027 /* libPods-GaoDeMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GaoDeMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D119FA06EC30646802D2632B /* Pods-GaoDeMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaoDeMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GaoDeMap/Pods-GaoDeMap.debug.xcconfig"; sourceTree = "<group>"; };
@@ -108,15 +118,16 @@
 		111909ED1F1C4EC50084AB6B /* GaoDeMap */ = {
 			isa = PBXGroup;
 			children = (
+				11190A241F1C8A3C0084AB6B /* Classes */,
 				111909F11F1C4EC50084AB6B /* AppDelegate.h */,
 				111909F21F1C4EC50084AB6B /* AppDelegate.m */,
 				111909F41F1C4EC50084AB6B /* ViewController.h */,
 				111909F51F1C4EC50084AB6B /* ViewController.m */,
 				111909F71F1C4EC50084AB6B /* Main.storyboard */,
+				111909EE1F1C4EC50084AB6B /* Supporting Files */,
 				111909FA1F1C4EC50084AB6B /* Assets.xcassets */,
 				111909FC1F1C4EC50084AB6B /* LaunchScreen.storyboard */,
 				111909FF1F1C4EC50084AB6B /* Info.plist */,
-				111909EE1F1C4EC50084AB6B /* Supporting Files */,
 			);
 			path = GaoDeMap;
 			sourceTree = "<group>";
@@ -125,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				111909EF1F1C4EC50084AB6B /* main.m */,
+				11190A301F1CAECD0084AB6B /* GDMPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -145,6 +157,27 @@
 				11190A151F1C4EC50084AB6B /* Info.plist */,
 			);
 			path = GaoDeMapUITests;
+			sourceTree = "<group>";
+		};
+		11190A241F1C8A3C0084AB6B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				11190A251F1C8A3C0084AB6B /* Controller */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		11190A251F1C8A3C0084AB6B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				11190A261F1C8A3C0084AB6B /* GDMHomeTableViewController.h */,
+				11190A271F1C8A3C0084AB6B /* GDMHomeTableViewController.m */,
+				11190A291F1C92650084AB6B /* GDMShowMapViewController.h */,
+				11190A2A1F1C92650084AB6B /* GDMShowMapViewController.m */,
+				11190A2C1F1CA9FF0084AB6B /* GDMInteractionViewController.h */,
+				11190A2D1F1CA9FF0084AB6B /* GDMInteractionViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		83DE344ED789EF68592987FD /* Pods */ = {
@@ -229,11 +262,13 @@
 		111909E31F1C4EC50084AB6B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = GDM;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = liuxm;
 				TargetAttributes = {
 					111909EA1F1C4EC50084AB6B = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = B5JRSR63K8;
 						ProvisioningStyle = Automatic;
 					};
 					11190A031F1C4EC50084AB6B = {
@@ -351,6 +386,9 @@
 				111909F61F1C4EC50084AB6B /* ViewController.m in Sources */,
 				111909F31F1C4EC50084AB6B /* AppDelegate.m in Sources */,
 				111909F01F1C4EC50084AB6B /* main.m in Sources */,
+				11190A281F1C8A3C0084AB6B /* GDMHomeTableViewController.m in Sources */,
+				11190A2E1F1CA9FF0084AB6B /* GDMInteractionViewController.m in Sources */,
+				11190A2B1F1C92650084AB6B /* GDMShowMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,7 +540,10 @@
 			baseConfigurationReference = D119FA06EC30646802D2632B /* Pods-GaoDeMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B5JRSR63K8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GaoDeMap/GDMPrefixHeader.pch";
 				INFOPLIST_FILE = GaoDeMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evan.GaoDeMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,7 +555,10 @@
 			baseConfigurationReference = 72A2723B5D4FE4D47F409D1B /* Pods-GaoDeMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B5JRSR63K8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GaoDeMap/GDMPrefixHeader.pch";
 				INFOPLIST_FILE = GaoDeMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evan.GaoDeMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -586,6 +630,7 @@
 				11190A1A1F1C4EC50084AB6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11190A1B1F1C4EC50084AB6B /* Build configuration list for PBXNativeTarget "GaoDeMapTests" */ = {
 			isa = XCConfigurationList;
@@ -594,6 +639,7 @@
 				11190A1D1F1C4EC50084AB6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11190A1E1F1C4EC50084AB6B /* Build configuration list for PBXNativeTarget "GaoDeMapUITests" */ = {
 			isa = XCConfigurationList;
@@ -602,6 +648,7 @@
 				11190A201F1C4EC50084AB6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

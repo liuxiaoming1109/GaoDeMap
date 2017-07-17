@@ -1,0 +1,18 @@
+//
+//  GDMPrefixHeader.pch
+//  GaoDeMap
+//
+//  Created by liuxm on 2017/7/17.
+//  Copyright © 2017年 liuxm. All rights reserved.
+//
+
+#ifndef GDMPrefixHeader_pch
+#define GDMPrefixHeader_pch
+
+#import <MAMapKit/MAMapKit.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* GDMPrefixHeader_pch */
