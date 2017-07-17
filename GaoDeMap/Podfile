@@ -1,0 +1,9 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, "8.0"
+inhibit_all_warnings!
+
+target "GaoDeMap" do
+	pod 'AMap3DMap-NO-IDFA', '~> 5.0.0'		    # 高德地图SDK
+	pod 'AMapNavi-NO-IDFA', '~> 5.0.0'		    # 高德导航SDK
+	pod 'AMapLocation-NO-IDFA', '~> 2.3.1'		# 高德定位SDK
+end
