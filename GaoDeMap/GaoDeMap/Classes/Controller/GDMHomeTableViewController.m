@@ -9,6 +9,7 @@
 #import "GDMHomeTableViewController.h"
 #import "GDMShowMapViewController.h"
 #import "GDMInteractionViewController.h"
+#import "GDMDrawMapViewController.h"
 
 @interface GDMHomeTableViewController () {
     // Cell数据
@@ -28,7 +29,7 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
-    _cellArray = [[NSArray alloc]initWithObjects:@"显示定位", @"地图交互", @"显示室内地图", nil];
+    _cellArray = [[NSArray alloc]initWithObjects:@"显示定位", @"地图交互", @"在地图上绘制", @"获取地图数据", nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -76,6 +77,12 @@
         {
             GDMInteractionViewController *interactionVC = [[GDMInteractionViewController alloc]init];
             [self.navigationController pushViewController:interactionVC animated:YES];
+        }
+            break;
+        case 2:
+        {
+            GDMDrawMapViewController *drawMapVC = [[GDMDrawMapViewController alloc]init];
+            [self.navigationController pushViewController:drawMapVC animated:YES];
         }
             break;
             
