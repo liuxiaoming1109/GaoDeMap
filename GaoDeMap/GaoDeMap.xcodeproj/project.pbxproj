@@ -22,8 +22,9 @@
 		11190A581F1E24EC0084AB6B /* GDMShowMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11190A541F1E24EC0084AB6B /* GDMShowMapViewController.m */; };
 		11190A5E1F1E2A150084AB6B /* GDMCustomAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11190A5B1F1E2A150084AB6B /* GDMCustomAnnotationView.m */; };
 		11190A5F1F1E2A150084AB6B /* GDMCustomCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11190A5D1F1E2A150084AB6B /* GDMCustomCalloutView.m */; };
-		11190A621F1E2A5F0084AB6B /* GDMDrawMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11190A601F1E2A5F0084AB6B /* GDMDrawMapViewController.m */; };
 		11190A631F1E2A5F0084AB6B /* GDMDrawMarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11190A611F1E2A5F0084AB6B /* GDMDrawMarkViewController.m */; };
+		11190A661F1F25180084AB6B /* GDMDrawPolylineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11190A651F1F25180084AB6B /* GDMDrawPolylineViewController.m */; };
+		11190A691F1F4A410084AB6B /* GDMDrawPlaneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11190A681F1F4A410084AB6B /* GDMDrawPlaneViewController.m */; };
 		68E5FD6218BC8099BFB324EC /* libPods-GaoDeMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7573ABAAEC3883AEE911027 /* libPods-GaoDeMap.a */; };
 /* End PBXBuildFile section */
 
@@ -66,7 +67,6 @@
 		11190A301F1CAECD0084AB6B /* GDMPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDMPrefixHeader.pch; sourceTree = "<group>"; };
 		11190A3D1F1E0B6B0084AB6B /* Mark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mark@3x.png"; sourceTree = "<group>"; };
 		11190A461F1E1E7D0084AB6B /* Annotation@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Annotation@3x.png"; sourceTree = "<group>"; };
-		11190A4C1F1E24EC0084AB6B /* GDMDrawMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDMDrawMapViewController.h; sourceTree = "<group>"; };
 		11190A4E1F1E24EC0084AB6B /* GDMDrawMarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDMDrawMarkViewController.h; sourceTree = "<group>"; };
 		11190A511F1E24EC0084AB6B /* GDMInteractionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDMInteractionViewController.h; sourceTree = "<group>"; };
 		11190A521F1E24EC0084AB6B /* GDMInteractionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMInteractionViewController.m; sourceTree = "<group>"; };
@@ -76,8 +76,11 @@
 		11190A5B1F1E2A150084AB6B /* GDMCustomAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMCustomAnnotationView.m; sourceTree = "<group>"; };
 		11190A5C1F1E2A150084AB6B /* GDMCustomCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDMCustomCalloutView.h; sourceTree = "<group>"; };
 		11190A5D1F1E2A150084AB6B /* GDMCustomCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMCustomCalloutView.m; sourceTree = "<group>"; };
-		11190A601F1E2A5F0084AB6B /* GDMDrawMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMDrawMapViewController.m; sourceTree = "<group>"; };
 		11190A611F1E2A5F0084AB6B /* GDMDrawMarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMDrawMarkViewController.m; sourceTree = "<group>"; };
+		11190A641F1F25180084AB6B /* GDMDrawPolylineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDMDrawPolylineViewController.h; sourceTree = "<group>"; };
+		11190A651F1F25180084AB6B /* GDMDrawPolylineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMDrawPolylineViewController.m; sourceTree = "<group>"; };
+		11190A671F1F4A410084AB6B /* GDMDrawPlaneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDMDrawPlaneViewController.h; sourceTree = "<group>"; };
+		11190A681F1F4A410084AB6B /* GDMDrawPlaneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMDrawPlaneViewController.m; sourceTree = "<group>"; };
 		72A2723B5D4FE4D47F409D1B /* Pods-GaoDeMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaoDeMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-GaoDeMap/Pods-GaoDeMap.release.xcconfig"; sourceTree = "<group>"; };
 		C7573ABAAEC3883AEE911027 /* libPods-GaoDeMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GaoDeMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D119FA06EC30646802D2632B /* Pods-GaoDeMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaoDeMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GaoDeMap/Pods-GaoDeMap.debug.xcconfig"; sourceTree = "<group>"; };
@@ -224,10 +227,12 @@
 		11190A4B1F1E24EC0084AB6B /* Draw(在地图上绘制) */ = {
 			isa = PBXGroup;
 			children = (
-				11190A4C1F1E24EC0084AB6B /* GDMDrawMapViewController.h */,
-				11190A601F1E2A5F0084AB6B /* GDMDrawMapViewController.m */,
 				11190A4E1F1E24EC0084AB6B /* GDMDrawMarkViewController.h */,
 				11190A611F1E2A5F0084AB6B /* GDMDrawMarkViewController.m */,
+				11190A641F1F25180084AB6B /* GDMDrawPolylineViewController.h */,
+				11190A651F1F25180084AB6B /* GDMDrawPolylineViewController.m */,
+				11190A671F1F4A410084AB6B /* GDMDrawPlaneViewController.h */,
+				11190A681F1F4A410084AB6B /* GDMDrawPlaneViewController.m */,
 			);
 			path = "Draw(在地图上绘制)";
 			sourceTree = "<group>";
@@ -462,9 +467,10 @@
 				11190A571F1E24EC0084AB6B /* GDMInteractionViewController.m in Sources */,
 				111909F61F1C4EC50084AB6B /* ViewController.m in Sources */,
 				11190A631F1E2A5F0084AB6B /* GDMDrawMarkViewController.m in Sources */,
-				11190A621F1E2A5F0084AB6B /* GDMDrawMapViewController.m in Sources */,
+				11190A661F1F25180084AB6B /* GDMDrawPolylineViewController.m in Sources */,
 				11190A5F1F1E2A150084AB6B /* GDMCustomCalloutView.m in Sources */,
 				111909F31F1C4EC50084AB6B /* AppDelegate.m in Sources */,
+				11190A691F1F4A410084AB6B /* GDMDrawPlaneViewController.m in Sources */,
 				111909F01F1C4EC50084AB6B /* main.m in Sources */,
 				11190A5E1F1E2A150084AB6B /* GDMCustomAnnotationView.m in Sources */,
 				11190A281F1C8A3C0084AB6B /* GDMHomeTableViewController.m in Sources */,

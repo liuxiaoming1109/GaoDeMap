@@ -9,7 +9,10 @@
 #import "GDMHomeTableViewController.h"
 #import "GDMShowMapViewController.h"
 #import "GDMInteractionViewController.h"
-#import "GDMDrawMapViewController.h"
+#import "GDMDrawMarkViewController.h"
+#import "GDMDrawPolylineViewController.h"
+#import "GDMDrawPlaneViewController.h"
+
 
 @interface GDMHomeTableViewController () {
     // Cell数据
@@ -29,7 +32,7 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
-    _cellArray = [[NSArray alloc]initWithObjects:@"显示定位", @"地图交互", @"在地图上绘制", @"获取地图数据", nil];
+    _cellArray = [[NSArray alloc]initWithObjects:@"显示定位", @"地图交互", @"绘制点标记", @"绘制折线", @"绘制面", nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -81,10 +84,23 @@
             break;
         case 2:
         {
-            GDMDrawMapViewController *drawMapVC = [[GDMDrawMapViewController alloc]init];
-            [self.navigationController pushViewController:drawMapVC animated:YES];
+            GDMDrawMarkViewController *markVC = [[GDMDrawMarkViewController alloc]init];
+            [self.navigationController pushViewController:markVC animated:YES];
         }
             break;
+        case 3:
+        {
+            GDMDrawPolylineViewController *polylineVC = [[GDMDrawPolylineViewController alloc]init];
+            [self.navigationController pushViewController:polylineVC animated:YES];
+        }
+            break;
+        case 4:
+        {
+            GDMDrawPlaneViewController *planeVC = [[GDMDrawPlaneViewController alloc]init];
+            [self.navigationController pushViewController:planeVC animated:YES];
+        }
+            break;
+
             
         default:
             break;
