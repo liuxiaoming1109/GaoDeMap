@@ -3,7 +3,7 @@
 inhibit_all_warnings!
 
 target "GaoDeMap" do
-	pod 'AMap3DMap-NO-IDFA', '~> 5.0.0'		    # 高德地图SDK
-	pod 'AMapNavi-NO-IDFA', '~> 5.0.0'		    # 高德导航SDK
-	pod 'AMapLocation-NO-IDFA', '~> 2.3.1'		# 高德定位SDK
+	pod 'AMap3DMap-NO-IDFA', '~> 5.2.1'		    # 高德地图SDK
+	pod 'AMapNavi-NO-IDFA', '~> 5.1.0'		    # 高德导航SDK
+	pod 'AMapLocation-NO-IDFA', '~> 2.4.0'		# 高德定位SDK
 end

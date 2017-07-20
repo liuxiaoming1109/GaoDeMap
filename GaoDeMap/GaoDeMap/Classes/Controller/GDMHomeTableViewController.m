@@ -12,6 +12,7 @@
 #import "GDMDrawMarkViewController.h"
 #import "GDMDrawPolylineViewController.h"
 #import "GDMDrawPlaneViewController.h"
+#import "GDMDrawMassPointsViewController.h"
 
 
 @interface GDMHomeTableViewController () {
@@ -32,7 +33,7 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
-    _cellArray = [[NSArray alloc]initWithObjects:@"显示定位", @"地图交互", @"绘制点标记", @"绘制折线", @"绘制面", nil];
+    _cellArray = [[NSArray alloc]initWithObjects:@"显示定位", @"地图交互", @"绘制点标记", @"绘制折线", @"绘制面", @"绘制海量点", nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -98,6 +99,12 @@
         {
             GDMDrawPlaneViewController *planeVC = [[GDMDrawPlaneViewController alloc]init];
             [self.navigationController pushViewController:planeVC animated:YES];
+        }
+            break;
+        case 5:
+        {
+            GDMDrawMassPointsViewController *pointsVC = [[GDMDrawMassPointsViewController alloc]init];
+            [self.navigationController pushViewController:pointsVC animated:YES];
         }
             break;
 

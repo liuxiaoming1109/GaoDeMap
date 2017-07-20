@@ -25,6 +25,9 @@
 		11190A631F1E2A5F0084AB6B /* GDMDrawMarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11190A611F1E2A5F0084AB6B /* GDMDrawMarkViewController.m */; };
 		11190A661F1F25180084AB6B /* GDMDrawPolylineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11190A651F1F25180084AB6B /* GDMDrawPolylineViewController.m */; };
 		11190A691F1F4A410084AB6B /* GDMDrawPlaneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11190A681F1F4A410084AB6B /* GDMDrawPlaneViewController.m */; };
+		11F470FD1F20514F00C6BEE3 /* GDMDrawMassPointsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F470FC1F20514F00C6BEE3 /* GDMDrawMassPointsViewController.m */; };
+		11F470FF1F20733D00C6BEE3 /* Marker_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11F470FE1F20733D00C6BEE3 /* Marker_red@2x.png */; };
+		11F471021F20761500C6BEE3 /* Points.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11F471011F20761500C6BEE3 /* Points.txt */; };
 		68E5FD6218BC8099BFB324EC /* libPods-GaoDeMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7573ABAAEC3883AEE911027 /* libPods-GaoDeMap.a */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +84,10 @@
 		11190A651F1F25180084AB6B /* GDMDrawPolylineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMDrawPolylineViewController.m; sourceTree = "<group>"; };
 		11190A671F1F4A410084AB6B /* GDMDrawPlaneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDMDrawPlaneViewController.h; sourceTree = "<group>"; };
 		11190A681F1F4A410084AB6B /* GDMDrawPlaneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMDrawPlaneViewController.m; sourceTree = "<group>"; };
+		11F470FB1F20514F00C6BEE3 /* GDMDrawMassPointsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDMDrawMassPointsViewController.h; sourceTree = "<group>"; };
+		11F470FC1F20514F00C6BEE3 /* GDMDrawMassPointsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDMDrawMassPointsViewController.m; sourceTree = "<group>"; };
+		11F470FE1F20733D00C6BEE3 /* Marker_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Marker_red@2x.png"; sourceTree = "<group>"; };
+		11F471011F20761500C6BEE3 /* Points.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Points.txt; sourceTree = "<group>"; };
 		72A2723B5D4FE4D47F409D1B /* Pods-GaoDeMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaoDeMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-GaoDeMap/Pods-GaoDeMap.release.xcconfig"; sourceTree = "<group>"; };
 		C7573ABAAEC3883AEE911027 /* libPods-GaoDeMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GaoDeMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D119FA06EC30646802D2632B /* Pods-GaoDeMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaoDeMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GaoDeMap/Pods-GaoDeMap.debug.xcconfig"; sourceTree = "<group>"; };
@@ -202,6 +209,7 @@
 		11190A391F1E09D30084AB6B /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				11F471001F20761500C6BEE3 /* Files */,
 				11190A3A1F1E09D30084AB6B /* Images */,
 			);
 			path = Resource;
@@ -210,6 +218,7 @@
 		11190A3A1F1E09D30084AB6B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				11F470FE1F20733D00C6BEE3 /* Marker_red@2x.png */,
 				11190A461F1E1E7D0084AB6B /* Annotation@3x.png */,
 				11190A3D1F1E0B6B0084AB6B /* Mark@3x.png */,
 			);
@@ -233,6 +242,8 @@
 				11190A651F1F25180084AB6B /* GDMDrawPolylineViewController.m */,
 				11190A671F1F4A410084AB6B /* GDMDrawPlaneViewController.h */,
 				11190A681F1F4A410084AB6B /* GDMDrawPlaneViewController.m */,
+				11F470FB1F20514F00C6BEE3 /* GDMDrawMassPointsViewController.h */,
+				11F470FC1F20514F00C6BEE3 /* GDMDrawMassPointsViewController.m */,
 			);
 			path = "Draw(在地图上绘制)";
 			sourceTree = "<group>";
@@ -257,6 +268,14 @@
 				11190A5D1F1E2A150084AB6B /* GDMCustomCalloutView.m */,
 			);
 			path = "Draw(在地图上绘制)";
+			sourceTree = "<group>";
+		};
+		11F471001F20761500C6BEE3 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				11F471011F20761500C6BEE3 /* Points.txt */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 		83DE344ED789EF68592987FD /* Pods */ = {
@@ -389,8 +408,10 @@
 			files = (
 				11190A3E1F1E0B6B0084AB6B /* Mark@3x.png in Resources */,
 				111909FE1F1C4EC50084AB6B /* LaunchScreen.storyboard in Resources */,
+				11F470FF1F20733D00C6BEE3 /* Marker_red@2x.png in Resources */,
 				111909FB1F1C4EC50084AB6B /* Assets.xcassets in Resources */,
 				111909F91F1C4EC50084AB6B /* Main.storyboard in Resources */,
+				11F471021F20761500C6BEE3 /* Points.txt in Resources */,
 				11190A471F1E1E7D0084AB6B /* Annotation@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,6 +495,7 @@
 				111909F01F1C4EC50084AB6B /* main.m in Sources */,
 				11190A5E1F1E2A150084AB6B /* GDMCustomAnnotationView.m in Sources */,
 				11190A281F1C8A3C0084AB6B /* GDMHomeTableViewController.m in Sources */,
+				11F470FD1F20514F00C6BEE3 /* GDMDrawMassPointsViewController.m in Sources */,
 				11190A581F1E24EC0084AB6B /* GDMShowMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
